@@ -3,7 +3,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/ranaxdev/Cloth-Sim">
-    <img src="https://github.com/ranaxdev/Cloth-Sim/tree/main/Res/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/ranaxdev/Cloth-Sim/blob/main/Res/logo.png?raw=true" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Cloth-Simulator</h3>
@@ -43,16 +43,16 @@ Feel free to suggest some in the issues tab!
 To create a cloth mesh, you simply need an easy `WaveFront obj` editor so that you can import the `obj` file. The simplest way is to just create a plane in blender and add equal number of cut loops on both the horizontal and vertical. Export as quads.
 
 
-<img src="https://github.com/ranaxdev/Cloth-Sim/tree/main/Res/img1.png" alt="Cloth Mesh" style="width:75%;"/>
+<img src="https://github.com/ranaxdev/Cloth-Sim/blob/main/Res/img1.png?raw=true" alt="Cloth Mesh" style="width:75%;"/>
 
 The program uses the mass-spring-damper model to model the cloth. In this case, each vertex in the mesh would be considered a mass (particle with a fixed weight). After loading in the cloth mesh, springs are created using adjacent and diagonal connections between the particles as shown in the following diagram.
 
-![Spring Model](https://github.com/ranaxdev/Cloth-Sim/tree/main/Res/img2.jpg)
+![Spring Model](https://github.com/ranaxdev/Cloth-Sim/blob/main/Res/img2.jpg?raw=true)
 
 Then to simulate the cloth, you apply the spring force and gravity to all of the created springs (and additional ones depending on the simulation such as friction or wind)
 
 
-<img src="https://github.com/ranaxdev/Cloth-Sim/tree/main/Res/img3.png" alt="Force" style="width:50%;"/>
+<img src="https://github.com/ranaxdev/Cloth-Sim/blob/main/Res/img3.png?raw=true" alt="Force" style="width:50%;"/>
 
 
 The parameters that worked for me were
