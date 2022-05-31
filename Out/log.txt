@@ -1,0 +1,6 @@
+*============================= LOGGED SESSION =============================*
+[ERR]   2021-12-06 @ 06:53:26   |Shader.cpp| Shader compilation error
+[INF]   2021-12-06 @ 06:53:26   |Shader.cpp| 0:7(10): error: redeclaration of `vcolor' has incorrect type
+
+[ERR]   2021-12-06 @ 06:53:26   |Shader.cpp| Shader linking error (program #3)
+[INF]   2021-12-06 @ 06:53:26   |Shader.cpp| error: linking with uncompiled/unspecialized shader
